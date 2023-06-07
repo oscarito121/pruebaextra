@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ZonasBasicasSalud [
+	<!ELEMENT ZonasBasicasSalud (registro+)>
+	<!ELEMENT registro (codigo_geometria, zona_basica_salud, tasa_incidencia_acumulada_ultimos_14dias, tasa_incidencia_acumulada_total, casos_confirmados_totales?, fecha_informe)>
+	<!ELEMENT codigo_geometria (#PCDATA)>
+	<!ELEMENT zona_basica_salud (#PCDATA)>
+	<!ELEMENT tasa_incidencia_acumulada_ultimos_14dias (#PCDATA)>
+	<!ELEMENT tasa_incidencia_acumulada_total (#PCDATA)>
+	<!ELEMENT casos_confirmados_totales (#PCDATA)>
+	<!ELEMENT fecha_informe (#PCDATA)>
+]>
+
+<ZonasBasicasSalud>
+	<registro>
+		<codigo_geometria></codigo_geometria>
+		<zona_basica_salud></zona_basica_salud>
+		<tasa_incidencia_acumulada_ultimos_14dias></tasa_incidencia_acumulada_ultimos_14dias>
+		<tasa_incidencia_acumulada_total></tasa_incidencia_acumulada_total>
+		<casos_confirmados_totales></casos_confirmados_totales>
+		<fecha_informe></fecha_informe>
+	</registro>
+</ZonasBasicasSalud>
